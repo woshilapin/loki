@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629463919177,
+  "lastUpdate": 1630335489586,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -107,6 +107,42 @@ window.BENCHMARK_DATA = {
             "name": "setup_routing_basic_bench",
             "value": 25933,
             "range": "± 2472",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3d87818c1e7eb9e87ef453d3dd625ef91037c6c",
+          "message": "Merge pull request #60 from CanalTP/fix-bug-secondpass\n\n[FIX] compute new board/debark time with new trip",
+          "timestamp": "2021-08-30T16:51:02+02:00",
+          "tree_id": "ac846066f05e17f4ce82063c3dfa65fca140cf6f",
+          "url": "https://github.com/CanalTP/loki/commit/b3d87818c1e7eb9e87ef453d3dd625ef91037c6c"
+        },
+        "date": 1630335488224,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_loads_bench",
+            "value": 24190,
+            "range": "± 3800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "setup_routing_basic_bench",
+            "value": 23726,
+            "range": "± 2218",
             "unit": "ns/iter"
           }
         ]
