@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630335489586,
+  "lastUpdate": 1630423725357,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -143,6 +143,42 @@ window.BENCHMARK_DATA = {
             "name": "setup_routing_basic_bench",
             "value": 23726,
             "range": "± 2218",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b2726e1ce46f623a18c574476d1488ece7212c7",
+          "message": "Merge pull request #62 from CanalTP/bump-transit_model\n\nBump transit_model",
+          "timestamp": "2021-08-31T17:22:39+02:00",
+          "tree_id": "aec33b6bdb47e9712ef6df9fd3f4fa399ed9fd8a",
+          "url": "https://github.com/CanalTP/loki/commit/7b2726e1ce46f623a18c574476d1488ece7212c7"
+        },
+        "date": 1630423724533,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_loads_bench",
+            "value": 20947,
+            "range": "± 365",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "setup_routing_basic_bench",
+            "value": 21058,
+            "range": "± 278",
             "unit": "ns/iter"
           }
         ]
