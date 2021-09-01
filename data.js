@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630423725357,
+  "lastUpdate": 1630485620770,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -179,6 +179,42 @@ window.BENCHMARK_DATA = {
             "name": "setup_routing_basic_bench",
             "value": 21058,
             "range": "± 278",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37479475bd80a37d652ea8205b394fe2cc007d74",
+          "message": "Merge pull request #63 from CanalTP/fix-second-pass\n\n[FIX] second pass for depart_after",
+          "timestamp": "2021-09-01T10:34:13+02:00",
+          "tree_id": "8d64383f285df775fbf73beb8beda52fded45c62",
+          "url": "https://github.com/CanalTP/loki/commit/37479475bd80a37d652ea8205b394fe2cc007d74"
+        },
+        "date": 1630485619883,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_loads_bench",
+            "value": 20986,
+            "range": "± 213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "setup_routing_basic_bench",
+            "value": 20853,
+            "range": "± 261",
             "unit": "ns/iter"
           }
         ]
