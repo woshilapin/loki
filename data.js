@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630485620770,
+  "lastUpdate": 1630928198069,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -215,6 +215,42 @@ window.BENCHMARK_DATA = {
             "name": "setup_routing_basic_bench",
             "value": 20853,
             "range": "± 261",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "084f492f5a4a36ee51a84b5819e08c75240347f8",
+          "message": "Merge pull request #61 from CanalTP/fixture-case-test\n\n[Bench][Test] Utility test cases + new bench",
+          "timestamp": "2021-09-06T13:29:29+02:00",
+          "tree_id": "0425cd4511963217341caeba1d554efa43ea93a3",
+          "url": "https://github.com/CanalTP/loki/commit/084f492f5a4a36ee51a84b5819e08c75240347f8"
+        },
+        "date": 1630928197177,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 116732,
+            "range": "± 4717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 24797,
+            "range": "± 2017",
             "unit": "ns/iter"
           }
         ]
