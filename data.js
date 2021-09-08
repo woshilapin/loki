@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631113914913,
+  "lastUpdate": 1631118190405,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -431,6 +431,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 24956,
             "range": "± 1503",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6b2e070126ee0c848e7621a4843fc24c043738d",
+          "message": "Merge pull request #70 from CanalTP/artemis-fix\n\n[Artemis] Use CanalTP/artemis repo",
+          "timestamp": "2021-09-08T18:15:55+02:00",
+          "tree_id": "2390593bfe746f8cf3394d64d5272bdc4b0d2e28",
+          "url": "https://github.com/CanalTP/loki/commit/a6b2e070126ee0c848e7621a4843fc24c043738d"
+        },
+        "date": 1631118189484,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 121495,
+            "range": "± 4226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 23944,
+            "range": "± 3219",
             "unit": "ns/iter"
           }
         ]
