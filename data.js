@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631097443779,
+  "lastUpdate": 1631113914913,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -395,6 +395,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 24788,
             "range": "± 5718",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68bc94f0dbc7b557fa2ac63784c92a3cb788f0c0",
+          "message": "Merge pull request #69 from CanalTP/fix-artemis\n\n[Artemis] Added handling of geopal data",
+          "timestamp": "2021-09-08T17:04:06+02:00",
+          "tree_id": "8e3aed1a2ec93054ea9257bd928e0733f7ac2c05",
+          "url": "https://github.com/CanalTP/loki/commit/68bc94f0dbc7b557fa2ac63784c92a3cb788f0c0"
+        },
+        "date": 1631113913977,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 120626,
+            "range": "± 2895",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 24956,
+            "range": "± 1503",
             "unit": "ns/iter"
           }
         ]
