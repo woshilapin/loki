@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631538707472,
+  "lastUpdate": 1631540857154,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -503,6 +503,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 23564,
             "range": "± 3090",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4415e0757abc5c717c00a6b4f15c0670f044964f",
+          "message": "Merge pull request #73 from CanalTP/auto/clippy\n\n[Clippy] Code maintenance",
+          "timestamp": "2021-09-13T15:40:25+02:00",
+          "tree_id": "189e08c23a8036c07139ebd663147ac508aa82ea",
+          "url": "https://github.com/CanalTP/loki/commit/4415e0757abc5c717c00a6b4f15c0670f044964f"
+        },
+        "date": 1631540855885,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 94937,
+            "range": "± 21066",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 19290,
+            "range": "± 3464",
             "unit": "ns/iter"
           }
         ]
