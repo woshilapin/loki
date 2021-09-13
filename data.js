@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631118190405,
+  "lastUpdate": 1631538707472,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -467,6 +467,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 23944,
             "range": "± 3219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6085893fea2a86938100ea3c33b3d402232bf9e2",
+          "message": "Merge pull request #71 from CanalTP/artemis-loki\n\n[Artemis] Add Benchmark & comparaison with Kraken",
+          "timestamp": "2021-09-13T15:04:10+02:00",
+          "tree_id": "d51c7e21a92124aebeb89db55a4f750051f3e791",
+          "url": "https://github.com/CanalTP/loki/commit/6085893fea2a86938100ea3c33b3d402232bf9e2"
+        },
+        "date": 1631538706125,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 111391,
+            "range": "± 17120",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 23564,
+            "range": "± 3090",
             "unit": "ns/iter"
           }
         ]
