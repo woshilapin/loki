@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631540857154,
+  "lastUpdate": 1631541082757,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -539,6 +539,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 19290,
             "range": "± 3464",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05d0e14e51450dfdaaa31d2b66cfccbc3138c54c",
+          "message": "Merge pull request #72 from CanalTP/fix-coverage\n\n[CI] Fix coverage",
+          "timestamp": "2021-09-13T15:43:47+02:00",
+          "tree_id": "9e5d0ff1ae08d424fada70b62077af51f0c7b7c5",
+          "url": "https://github.com/CanalTP/loki/commit/05d0e14e51450dfdaaa31d2b66cfccbc3138c54c"
+        },
+        "date": 1631541081475,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 120953,
+            "range": "± 2703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 24888,
+            "range": "± 2471",
             "unit": "ns/iter"
           }
         ]
