@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631541082757,
+  "lastUpdate": 1632150153973,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -575,6 +575,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 24888,
             "range": "± 2471",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bb3f5e15ed3bd6093a18a40f3523db6be7e4b7a",
+          "message": "Merge pull request #75 from CanalTP/remove_chrono_for_utc_time\n\nRemove chrono for utc time",
+          "timestamp": "2021-09-20T16:55:16+02:00",
+          "tree_id": "672934b03af8f13e430582899feb1fa2ec7e1260",
+          "url": "https://github.com/CanalTP/loki/commit/7bb3f5e15ed3bd6093a18a40f3523db6be7e4b7a"
+        },
+        "date": 1632150153014,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 104507,
+            "range": "± 11209",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 21434,
+            "range": "± 3286",
             "unit": "ns/iter"
           }
         ]
