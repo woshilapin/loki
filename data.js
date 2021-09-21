@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632150847789,
+  "lastUpdate": 1632211256999,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -647,6 +647,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 19774,
             "range": "± 4255",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7ff94376e114a1f39fa9ac0be8f7ce7d1838f01",
+          "message": "Merge pull request #77 from CanalTP/log-improv\n\n[LOG] Use tracing crate",
+          "timestamp": "2021-09-21T09:52:51+02:00",
+          "tree_id": "070e51efc23dda4a353be2598273bca1d7acb1f8",
+          "url": "https://github.com/CanalTP/loki/commit/b7ff94376e114a1f39fa9ac0be8f7ce7d1838f01"
+        },
+        "date": 1632211256077,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 109149,
+            "range": "± 1262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 23414,
+            "range": "± 401",
             "unit": "ns/iter"
           }
         ]
