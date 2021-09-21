@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632211256999,
+  "lastUpdate": 1632243230051,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -683,6 +683,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 23414,
             "range": "± 401",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3d31d0191b19ec6bfa29b533b0dea978d4bef49",
+          "message": "Merge pull request #79 from CanalTP/profile-build\n\nEnable full optimisation for release profile",
+          "timestamp": "2021-09-21T18:46:40+02:00",
+          "tree_id": "bf10dccb3515a3b3a6a7e16a4302949e3bae78b3",
+          "url": "https://github.com/CanalTP/loki/commit/d3d31d0191b19ec6bfa29b533b0dea978d4bef49"
+        },
+        "date": 1632243228862,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 99922,
+            "range": "± 3595",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 21971,
+            "range": "± 1603",
             "unit": "ns/iter"
           }
         ]
