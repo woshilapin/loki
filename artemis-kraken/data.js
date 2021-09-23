@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632416538991,
+  "lastUpdate": 1632422091347,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Kraken Benchmark": [
@@ -52942,6 +52942,3537 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006726598632229687",
             "extra": "mean: 303.1514244000391 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5a5e6c4da1a862a825ed0edf12021b353325558",
+          "message": "Merge pull request #82 from CanalTP/fmt-import\n\nFmt fuse & reorder use crate",
+          "timestamp": "2021-09-23T19:05:44+02:00",
+          "tree_id": "0734909af3774795546fb0a7a8a5806bd1ae41a1",
+          "url": "https://github.com/CanalTP/loki/commit/f5a5e6c4da1a862a825ed0edf12021b353325558"
+        },
+        "date": 1632422090203,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "artemis/global_test_",
+            "value": ".0057123313",
+            "unit": "iter/sec",
+            "range": "stddev: .0005712331",
+            "extra": "mean: 175.05987232179677 sec\nrounds: 1"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_0",
+            "value": 2.6716770214610803,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035826971370632385",
+            "extra": "mean: 374.2967401999522 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_1",
+            "value": 3.9500114516753473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004527399414909743",
+            "extra": "mean: 253.1638230000226 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_2",
+            "value": 4.448190762106764,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00848028705233843",
+            "extra": "mean: 224.81050239994147 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_3",
+            "value": 3.4605480777010387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00882813462720258",
+            "extra": "mean: 288.9715668000008 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_4",
+            "value": 3.0406459034410838,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010980907491326007",
+            "extra": "mean: 328.8774923999881 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_5",
+            "value": 2.0402728419820613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027443042104014298",
+            "extra": "mean: 490.1305253999908 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_6",
+            "value": 3.4850688539892403,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004604534447324539",
+            "extra": "mean: 286.93837680002616 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_7",
+            "value": 1.4496728495881712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022622677078543478",
+            "extra": "mean: 689.8108081999908 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_8",
+            "value": 5.436106280877555,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02471037237918293",
+            "extra": "mean: 183.9551966667159 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_9",
+            "value": 2.72553775449981,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011899326862546293",
+            "extra": "mean: 366.9000725999922 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_10",
+            "value": 1.973786822508964,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02864273918860429",
+            "extra": "mean: 506.6403264000201 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_11",
+            "value": 1.0995516105501495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02519024716194847",
+            "extra": "mean: 909.4616299999416 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_12",
+            "value": 3.806442554453779,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006825489957139683",
+            "extra": "mean: 262.71248960001685 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_13",
+            "value": 4.27049880229695,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007637988956533719",
+            "extra": "mean: 234.16468340001302 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_14",
+            "value": 3.5990124180364504,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01068044135999225",
+            "extra": "mean: 277.8540009999688 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_15",
+            "value": 4.121861445389707,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0063884634519407735",
+            "extra": "mean: 242.60883420001846 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_16",
+            "value": 2.8103803712518642,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009965341810515786",
+            "extra": "mean: 355.82372059998306 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_17",
+            "value": 3.0746578374245073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02243332961241871",
+            "extra": "mean: 325.2394422000634 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_18",
+            "value": 4.063981223365973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019022812892661176",
+            "extra": "mean: 246.06412900002397 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_19",
+            "value": 4.179253421713949,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006014682667245913",
+            "extra": "mean: 239.27718639993145 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_20",
+            "value": 2.258538751419123,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014425990382671996",
+            "extra": "mean: 442.76415419999466 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_21",
+            "value": 2.1111067003522326,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025011194049550756",
+            "extra": "mean: 473.68520020004325 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_22",
+            "value": 4.304889408239193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011835260224837512",
+            "extra": "mean: 232.29400459999852 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_23",
+            "value": 4.675240085781524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00616634968026491",
+            "extra": "mean: 213.89275879996603 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_24",
+            "value": 4.945757053423066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006459454029919111",
+            "extra": "mean: 202.1935143999599 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_25",
+            "value": 2.8456490076191208,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020688244869923274",
+            "extra": "mean: 351.41368359995795 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_26",
+            "value": 4.651433010829809,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005241235156980706",
+            "extra": "mean: 214.98750980003933 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_27",
+            "value": 2.5740238539250555,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017627690163691707",
+            "extra": "mean: 388.4967881999728 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_28",
+            "value": 3.73665228289438,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006298603468309167",
+            "extra": "mean: 267.6192282000102 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_29",
+            "value": 3.9140336950907355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007378680602711074",
+            "extra": "mean: 255.49090220001747 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_30",
+            "value": 1.955970657663996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03512130662707664",
+            "extra": "mean: 511.255113200059 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_31",
+            "value": 4.898106627477778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005229677934856443",
+            "extra": "mean: 204.16052080004192 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_32",
+            "value": 2.6532167496662815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02479912254700715",
+            "extra": "mean: 376.90098260000013 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_33",
+            "value": 5.07663126668991,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0043162420020244835",
+            "extra": "mean: 196.98101900003167 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_34",
+            "value": 2.4226017819350014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0228177042097461",
+            "extra": "mean: 412.7793546000248 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_35",
+            "value": 4.171305485119181,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004282879024343157",
+            "extra": "mean: 239.73310119995404 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_36",
+            "value": 3.3139197639219486,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003554344935019906",
+            "extra": "mean: 301.7574567998963 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_37",
+            "value": 2.990127045427409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006413027158799937",
+            "extra": "mean: 334.43395039994357 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_38",
+            "value": 3.9048822356798563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008946152922280287",
+            "extra": "mean: 256.089669199946 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_39",
+            "value": 3.2143507626429395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003144323304641473",
+            "extra": "mean: 311.10481519999666 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_40",
+            "value": 3.150391170304593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007855673406624346",
+            "extra": "mean: 317.42089979998127 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_41",
+            "value": 4.367980927103023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015331848620369423",
+            "extra": "mean: 228.93872859999647 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_42",
+            "value": 3.0378109469195564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004525624959490573",
+            "extra": "mean: 329.1844085998946 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_43",
+            "value": 3.929407335884548,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006664132713801769",
+            "extra": "mean: 254.49130480001259 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_44",
+            "value": 4.676368105931973,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006022135035145803",
+            "extra": "mean: 213.84116419994825 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_45",
+            "value": 2.374297069111852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032380219890846",
+            "extra": "mean: 421.177287799992 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_46",
+            "value": 1.3179374936454895,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026518506137737635",
+            "extra": "mean: 758.7613258000147 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_47",
+            "value": 1.8116268863543517,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026068942209257446",
+            "extra": "mean: 551.9900413999494 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_48",
+            "value": 2.774153120170157,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009893759267478016",
+            "extra": "mean: 360.47036940003636 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_49",
+            "value": 2.406132977331463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010666693830502253",
+            "extra": "mean: 415.6046276000325 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_50",
+            "value": 2.8512587535563325,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011467697088728255",
+            "extra": "mean: 350.72229019997394 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_51",
+            "value": 1.8124066069368117,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025242628766955107",
+            "extra": "mean: 551.7525681999814 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_52",
+            "value": 1.8790955787755126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.037487434973525476",
+            "extra": "mean: 532.1709078000367 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_53",
+            "value": 3.6722173046456126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011176580967474859",
+            "extra": "mean: 272.3150394000186 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_54",
+            "value": 1.7179158932098362,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010483888220153932",
+            "extra": "mean: 582.1006744000442 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_55",
+            "value": 3.888512785883307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00938783517953911",
+            "extra": "mean: 257.16772840000885 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_56",
+            "value": 4.277935498033598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012414368442203106",
+            "extra": "mean: 233.75761520005653 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_57",
+            "value": 4.608929718554633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006140276802205256",
+            "extra": "mean: 216.97011259993815 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_58",
+            "value": 4.535004345294762,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004783262508045518",
+            "extra": "mean: 220.5069552000623 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_59",
+            "value": 2.234476830038954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015756295319254123",
+            "extra": "mean: 447.53205160000107 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_60",
+            "value": 2.44760155499733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026249582448617137",
+            "extra": "mean: 408.5632312000598 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_61",
+            "value": 4.750235130700591,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00399613975976869",
+            "extra": "mean: 210.51589500002592 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_62",
+            "value": 4.395435811803419,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004275015636815965",
+            "extra": "mean: 227.50872560000062 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_63",
+            "value": 3.767836813251607,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0102965002721654",
+            "extra": "mean: 265.40427559998534 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_64",
+            "value": 2.8633788741865795,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00946986785508102",
+            "extra": "mean: 349.2377516000488 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_65",
+            "value": 2.704852120019279,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0066780956038726795",
+            "extra": "mean: 369.70597859999543 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_66",
+            "value": 4.126271040542473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005631708531540462",
+            "extra": "mean: 242.34956699997383 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_67",
+            "value": 4.436129383243487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0033483029867647767",
+            "extra": "mean: 225.42173900005764 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_68",
+            "value": 2.192483883382239,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03701035684877771",
+            "extra": "mean: 456.10369479995825 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_69",
+            "value": 2.9426879874655554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0063990189217456",
+            "extra": "mean: 339.8253584000486 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_70",
+            "value": 4.299013654167412,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007270828169236337",
+            "extra": "mean: 232.61149660006595 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_71",
+            "value": 4.494311361798393,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00492272293529264",
+            "extra": "mean: 222.503498199967 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_72",
+            "value": 2.548916965155801,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025704604820186355",
+            "extra": "mean: 392.3234902000331 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_73",
+            "value": 2.0152401350250577,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021071113982249305",
+            "extra": "mean: 496.2187793999874 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_74",
+            "value": 1.5978753733771358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027316385763165838",
+            "extra": "mean: 625.8310358000472 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_75",
+            "value": 3.503869347797255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010305058093527993",
+            "extra": "mean: 285.3987694000807 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_76",
+            "value": 4.057264536777991,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010437100160142179",
+            "extra": "mean: 246.47148120002385 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_77",
+            "value": 4.639350731847151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008625168421409092",
+            "extra": "mean: 215.54740259998653 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_78",
+            "value": 2.804235726276315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010831725971338562",
+            "extra": "mean: 356.60340199997336 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_79",
+            "value": 3.2545443999196313,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011684012850754636",
+            "extra": "mean: 307.26266939996094 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_80",
+            "value": 2.5776886129853627,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03038958061770573",
+            "extra": "mean: 387.94445339999584 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_81",
+            "value": 4.311609314808522,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0027037210786281136",
+            "extra": "mean: 231.9319601999723 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_82",
+            "value": 4.153074739764803,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009613078066141674",
+            "extra": "mean: 240.78545719999056 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_83",
+            "value": 4.343822083962804,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006274699434789733",
+            "extra": "mean: 230.21200700000009 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_84",
+            "value": 2.6658143766643563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009363574902999543",
+            "extra": "mean: 375.1198915999794 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_85",
+            "value": 4.377292715944164,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006218160208713653",
+            "extra": "mean: 228.45170860005055 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_86",
+            "value": 5.035993621237751,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006608096929011824",
+            "extra": "mean: 198.5705453999799 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_87",
+            "value": 4.037427202098881,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032186750046210824",
+            "extra": "mean: 247.68248440000207 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_88",
+            "value": 1.3591179895948224,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026518810174573346",
+            "extra": "mean: 735.7712925999294 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_89",
+            "value": 1.9614234947221314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01992063608113773",
+            "extra": "mean: 509.83380319999014 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_90",
+            "value": 4.209250978319078,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007647592898885964",
+            "extra": "mean: 237.57195879998108 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_91",
+            "value": 1.3280228257418982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019524218910258795",
+            "extra": "mean: 752.9991055999744 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_92",
+            "value": 1.9248553228212908,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03864066526903627",
+            "extra": "mean: 519.5195649999732 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_93",
+            "value": 4.126385946165264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00871697880769802",
+            "extra": "mean: 242.3428184000386 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_94",
+            "value": 2.6322823278419283,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010298232866584722",
+            "extra": "mean: 379.8984589999691 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_95",
+            "value": 3.518828549208851,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00914111924132369",
+            "extra": "mean: 284.1854855999827 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_96",
+            "value": 2.608250952644495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025327984438583147",
+            "extra": "mean: 383.3986905999609 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_97",
+            "value": 3.0649834705932264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004786269452348796",
+            "extra": "mean: 326.26603359999535 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_98",
+            "value": 1.9244046682983476,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022434130961008054",
+            "extra": "mean: 519.6412253999824 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_99",
+            "value": 6.503256107494204,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007907005239673602",
+            "extra": "mean: 153.76912480005558 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_100",
+            "value": 2.265901977378413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018391493330184614",
+            "extra": "mean: 441.3253574000464 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_101",
+            "value": 4.332757006748763,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003336953494207903",
+            "extra": "mean: 230.7999268000458 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_102",
+            "value": 1.475497765331284,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0339108032340322",
+            "extra": "mean: 677.7373870000247 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_103",
+            "value": 4.3524664482432005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003582684492831547",
+            "extra": "mean: 229.75478660005137 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_104",
+            "value": 3.607405968090405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007159499119934475",
+            "extra": "mean: 277.2075027999563 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_105",
+            "value": 4.834293551818447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004157763968253135",
+            "extra": "mean: 206.855456600033 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_106",
+            "value": 4.108460977026137,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00719518774492974",
+            "extra": "mean: 243.40014559998053 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_107",
+            "value": 4.069686402573972,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006701979401427336",
+            "extra": "mean: 245.71917859998393 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_108",
+            "value": 4.044678816504572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004825666831646267",
+            "extra": "mean: 247.23841999998513 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_109",
+            "value": 4.638093278071746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004650928906139565",
+            "extra": "mean: 215.6058406000284 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_110",
+            "value": 3.997906107870922,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025813331796823028",
+            "extra": "mean: 250.1309367999511 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_111",
+            "value": 3.2746298367115023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008096600586975575",
+            "extra": "mean: 305.3780273999564 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_112",
+            "value": 2.21911007518641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008619911138332744",
+            "extra": "mean: 450.63109359998634 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_113",
+            "value": 4.695721390805859,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004377480974279867",
+            "extra": "mean: 212.95982380001988 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_114",
+            "value": 1.8065984489359506,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0193684512317898",
+            "extra": "mean: 553.5264355999971 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_115",
+            "value": 4.640133723755642,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004000381141542843",
+            "extra": "mean: 215.51103039992086 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_116",
+            "value": 4.479241393383097,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006296995250042633",
+            "extra": "mean: 223.25208940005723 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_117",
+            "value": 4.374913193976117,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022728502544007344",
+            "extra": "mean: 228.57596383327441 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_118",
+            "value": 3.5221089973918485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009397641762271876",
+            "extra": "mean: 283.92079879995435 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_119",
+            "value": 3.5952811043863586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008125955686009425",
+            "extra": "mean: 278.14236800008985 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_120",
+            "value": 4.780473185119118,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005070767765354851",
+            "extra": "mean: 209.1843131999667 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_121",
+            "value": 1.3292732302456756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034652242566154436",
+            "extra": "mean: 752.2907835999831 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_122",
+            "value": 4.455245714432639,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00655560886607672",
+            "extra": "mean: 224.4545114000175 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_123",
+            "value": 2.300127476469398,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024634129916603312",
+            "extra": "mean: 434.75851239991243 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_124",
+            "value": 1.9337949032326993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018761464253646824",
+            "extra": "mean: 517.1179209999536 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_125",
+            "value": 1.8993064137151354,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01829459553340307",
+            "extra": "mean: 526.5079887999491 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_126",
+            "value": 1.685948249290551,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02306031031702069",
+            "extra": "mean: 593.1380161999641 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_127",
+            "value": 2.650622694885916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026919670215449176",
+            "extra": "mean: 377.2698400000081 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_128",
+            "value": 3.4939478153889585,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005344650000838065",
+            "extra": "mean: 286.2091974000123 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_129",
+            "value": 2.4125541776799033,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02697333940605528",
+            "extra": "mean: 414.49846359996627 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_130",
+            "value": 3.6817174931700243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007761040954479689",
+            "extra": "mean: 271.61236620004274 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_131",
+            "value": 4.021536560482001,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007010794218062899",
+            "extra": "mean: 248.66117339988705 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_132",
+            "value": 0.9406414351563556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025835804720570548",
+            "extra": "mean: 1.0631043484000657 sec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_133",
+            "value": 1.7973450919578446,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007413936453671504",
+            "extra": "mean: 556.3761820000309 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_134",
+            "value": 3.0410893188754464,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02063970006114634",
+            "extra": "mean: 328.82953939997606 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_135",
+            "value": 3.124743282809798,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010719953483780787",
+            "extra": "mean: 320.02628999998706 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_136",
+            "value": 2.9722303136736925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012195520000622417",
+            "extra": "mean: 336.44768219996877 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_137",
+            "value": 3.6767042968617094,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02064033535612678",
+            "extra": "mean: 271.9827104000615 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_138",
+            "value": 3.813566102425037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0056000836932911585",
+            "extra": "mean: 262.2217560000081 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_139",
+            "value": 2.5949232715599004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007557453562547464",
+            "extra": "mean: 385.36784919997444 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_140",
+            "value": 4.70150993100551,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007657597918802972",
+            "extra": "mean: 212.69762580000133 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_141",
+            "value": 4.068858089453624,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010673655302744495",
+            "extra": "mean: 245.7692006000343 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_142",
+            "value": 5.199544618890959,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003066303473989643",
+            "extra": "mean: 192.32453479999094 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_143",
+            "value": 2.262227910012363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008644081458708573",
+            "extra": "mean: 442.0421105999594 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_144",
+            "value": 1.25950023520374,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02365246205235484",
+            "extra": "mean: 793.9657111999168 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_145",
+            "value": 3.3804899146071796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013264235062257186",
+            "extra": "mean: 295.8151111999996 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_146",
+            "value": 2.8687276037610796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010476635215044158",
+            "extra": "mean: 348.58659940000507 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_147",
+            "value": 8.075426169340371,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006737729786917992",
+            "extra": "mean: 123.83247385712691 msec\nrounds: 7"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_148",
+            "value": 3.167383141825267,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004837651513606551",
+            "extra": "mean: 315.7180407999931 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_149",
+            "value": 5.306855886789098,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006314967733226848",
+            "extra": "mean: 188.43549199996232 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_150",
+            "value": 1.4822105942676527,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03079668395692432",
+            "extra": "mean: 674.6679613999731 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_151",
+            "value": 3.3855294515239254,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009626208821890386",
+            "extra": "mean: 295.374775000073 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_152",
+            "value": 5.006407891704856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005336483543931279",
+            "extra": "mean: 199.7440123999695 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_153",
+            "value": 2.9681969909516557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004897843675439089",
+            "extra": "mean: 336.90486280002006 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_154",
+            "value": 8.094972444455744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0043964949372576",
+            "extra": "mean: 123.53346559998499 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_155",
+            "value": 3.1578450842161905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008250107239964204",
+            "extra": "mean: 316.6716457999428 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_156",
+            "value": 5.189490370378356,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036885584971734246",
+            "extra": "mean: 192.6971491667094 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_157",
+            "value": 1.7520297934434852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009800250629363487",
+            "extra": "mean: 570.7665495999208 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_158",
+            "value": 2.5892138206488307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012194737289826965",
+            "extra": "mean: 386.2176202000228 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_159",
+            "value": 1.6835072078993565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023581982401745166",
+            "extra": "mean: 593.998050800019 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_160",
+            "value": 2.544166642597511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010493678516865725",
+            "extra": "mean: 393.0560142000104 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_161",
+            "value": 2.974366955546407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011486448255016303",
+            "extra": "mean: 336.2059944000066 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_162",
+            "value": 2.9707320372302726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013686945124768377",
+            "extra": "mean: 336.6173682000408 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_163",
+            "value": 1.7989931521056508,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018705062923441994",
+            "extra": "mean: 555.8664849999786 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_164",
+            "value": 3.9298595554111,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008650711407466939",
+            "extra": "mean: 254.46201979993933 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_165",
+            "value": 1.8339822838073423,
+            "unit": "iter/sec",
+            "range": "stddev: 0.047235869526268785",
+            "extra": "mean: 545.2615376000267 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_166",
+            "value": 2.6973413081939666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01878458853865622",
+            "extra": "mean: 370.73543380001865 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_167",
+            "value": 2.6780941730610475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017469298022118634",
+            "extra": "mean: 373.39986399992995 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_168",
+            "value": 2.3429535832181547,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04150800512174686",
+            "extra": "mean: 426.81169919997046 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_169",
+            "value": 3.2182422120660594,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005533647579981775",
+            "extra": "mean: 310.7286320000185 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_170",
+            "value": 3.0215925152517467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009031644424701423",
+            "extra": "mean: 330.95130959995913 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_171",
+            "value": 2.8713913491307155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005564160756753524",
+            "extra": "mean: 348.2632210000702 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_172",
+            "value": 2.370660126148265,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009254563207714185",
+            "extra": "mean: 421.82343599997694 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_173",
+            "value": 4.015977928017698,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022241863655753074",
+            "extra": "mean: 249.0053526000338 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_174",
+            "value": 2.3070549787853083,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023001609741144464",
+            "extra": "mean: 433.45304260001285 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_175",
+            "value": 4.517428333828497,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006483188320774646",
+            "extra": "mean: 221.36488420005662 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_176",
+            "value": 2.1649456962708955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017448247280339113",
+            "extra": "mean: 461.90535020000425 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_177",
+            "value": 2.9017605074435897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008605030429472669",
+            "extra": "mean: 344.61837819999346 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_178",
+            "value": 2.9443735215857045,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034264152482802912",
+            "extra": "mean: 339.63082219997887 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_179",
+            "value": 2.029592657595331,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03139246047208221",
+            "extra": "mean: 492.70970520005903 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_180",
+            "value": 4.236785121484211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006989422952319197",
+            "extra": "mean: 236.02801920001184 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_181",
+            "value": 4.253151688540808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005575335903451518",
+            "extra": "mean: 235.11975899996287 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_182",
+            "value": 4.545985801753899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005108002998328411",
+            "extra": "mean: 219.9742901999798 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_183",
+            "value": 1.5662016932299745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024874568728335916",
+            "extra": "mean: 638.4873700000298 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_184",
+            "value": 2.2853973734476303,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029216593814328347",
+            "extra": "mean: 437.560667400021 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_185",
+            "value": 2.526728440931864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011663027311051257",
+            "extra": "mean: 395.76868800004377 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_186",
+            "value": 2.1752395830737217,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024679899712123716",
+            "extra": "mean: 459.71947540001565 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_187",
+            "value": 1.6256526088109156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0260025843987953",
+            "extra": "mean: 615.1375728000403 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_188",
+            "value": 4.567802235519947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008412818376695774",
+            "extra": "mean: 218.92366359993503 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_189",
+            "value": 3.7267889083543353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006694492676142107",
+            "extra": "mean: 268.3275131999835 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_190",
+            "value": 3.490511589113913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023217001879422133",
+            "extra": "mean: 286.4909553999951 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_191",
+            "value": 1.9226147538503808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01611670628589718",
+            "extra": "mean: 520.1250006000009 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_192",
+            "value": 4.024774810447433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02039161758781701",
+            "extra": "mean: 248.46110580006098 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_193",
+            "value": 1.6641421873757087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025347396556753134",
+            "extra": "mean: 600.910191200046 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_194",
+            "value": 2.922043351838569,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009915591169744649",
+            "extra": "mean: 342.22627099998135 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_195",
+            "value": 4.196696397023566,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03282152298921923",
+            "extra": "mean: 238.28266460000123 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_196",
+            "value": 2.514027844214666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008078627792394714",
+            "extra": "mean: 397.768068600044 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_197",
+            "value": 3.9755458545119535,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004648470913787202",
+            "extra": "mean: 251.53778539997802 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_198",
+            "value": 2.647012984894438,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019575256485459727",
+            "extra": "mean: 377.7843197999573 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_199",
+            "value": 1.7862540546886447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041113917205736226",
+            "extra": "mean: 559.8307795999972 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_200",
+            "value": 4.3421291380125755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004578254990283038",
+            "extra": "mean: 230.301763999978 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_201",
+            "value": 2.8515287364068835,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023129567121143745",
+            "extra": "mean: 350.6890838000345 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_202",
+            "value": 2.5870060450208734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021204861139798862",
+            "extra": "mean: 386.54722199999014 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_203",
+            "value": 2.6813111401044956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010525534897754783",
+            "extra": "mean: 372.95186860001195 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_204",
+            "value": 4.078480437148234,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032451212844683227",
+            "extra": "mean: 245.189358000016 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_205",
+            "value": 2.6607254951036294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009820233736703335",
+            "extra": "mean: 375.8373428000141 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_206",
+            "value": 4.530097605174286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02493421787893449",
+            "extra": "mean: 220.74579560003258 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_207",
+            "value": 2.535132609225229,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018395836311941364",
+            "extra": "mean: 394.45668299995305 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_208",
+            "value": 1.5590236797422248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021787099517521804",
+            "extra": "mean: 641.427075799993 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_209",
+            "value": 3.464294703437756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005026019264069139",
+            "extra": "mean: 288.6590447999879 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_210",
+            "value": 4.77916630496681,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038743573885001675",
+            "extra": "mean: 209.2415154000264 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_211",
+            "value": 1.9081826758584175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01611777713350736",
+            "extra": "mean: 524.0588401999503 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_212",
+            "value": 4.942910969916232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006477019725639131",
+            "extra": "mean: 202.30993559994204 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_213",
+            "value": 3.309178411300364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018282316260255935",
+            "extra": "mean: 302.1898114000578 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_214",
+            "value": 3.9471710625000522,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014076732264264874",
+            "extra": "mean: 253.345999999965 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_215",
+            "value": 3.7946893957887857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007046532889860121",
+            "extra": "mean: 263.5261798000556 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_216",
+            "value": 6.560292672675143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003447263611325341",
+            "extra": "mean: 152.43222366666487 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_217",
+            "value": 3.81804618021686,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011107427481401505",
+            "extra": "mean: 261.91406620000635 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_218",
+            "value": 4.588172142409344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004704690762855781",
+            "extra": "mean: 217.95171779995144 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_219",
+            "value": 4.014164889620541,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013451404919990305",
+            "extra": "mean: 249.11781839996365 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_220",
+            "value": 4.292467451830252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007095390438464511",
+            "extra": "mean: 232.96623940004793 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_221",
+            "value": 1.8992628629976724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03248092148888126",
+            "extra": "mean: 526.5200618000108 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_222",
+            "value": 3.0695753804989208,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02113039890055222",
+            "extra": "mean: 325.77795820002393 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_223",
+            "value": 4.584094196322427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004433029664651108",
+            "extra": "mean: 218.14560459997665 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_224",
+            "value": 2.9335161746248395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01670675034997032",
+            "extra": "mean: 340.8878425999774 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_225",
+            "value": 3.806726241333852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006860611825620169",
+            "extra": "mean: 262.6929115999701 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_226",
+            "value": 4.525760120171769,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0045072328837370765",
+            "extra": "mean: 220.9573581999848 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_227",
+            "value": 4.0178816497827246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022434369823434924",
+            "extra": "mean: 248.88737080000283 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_228",
+            "value": 4.858094878563803,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005369684279245825",
+            "extra": "mean: 205.8420070000011 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_229",
+            "value": 2.5553648739445887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0061431251106685856",
+            "extra": "mean: 391.333547000022 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_230",
+            "value": 4.131123799455599,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0037564848291956185",
+            "extra": "mean: 242.06488320000972 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_231",
+            "value": 3.5572892790627484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004545352334385134",
+            "extra": "mean: 281.1129265999625 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_232",
+            "value": 2.165008725933789,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014580661670531944",
+            "extra": "mean: 461.89190279992545 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_233",
+            "value": 4.494939831373671,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0054438856556228285",
+            "extra": "mean: 222.47238840000136 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_234",
+            "value": 2.762847002614892,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010141136424728454",
+            "extra": "mean: 361.9454856000175 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_235",
+            "value": 1.7764701801362757,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01589381118151981",
+            "extra": "mean: 562.9140365999774 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_236",
+            "value": 4.379244209119944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0046191470234572445",
+            "extra": "mean: 228.349905199957 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_237",
+            "value": 2.4379341175648155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016297238925271646",
+            "extra": "mean: 410.18335680000746 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_238",
+            "value": 4.494822636298905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00398075968300206",
+            "extra": "mean: 222.4781890000031 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_239",
+            "value": 3.6667923271515384,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006589338905664395",
+            "extra": "mean: 272.717926399946 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_240",
+            "value": 2.502554965974521,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01820902766113967",
+            "extra": "mean: 399.5916228000169 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_241",
+            "value": 3.649889348530853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011779816947655087",
+            "extra": "mean: 273.980908600015 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_242",
+            "value": 4.121129854271478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0168708002255052",
+            "extra": "mean: 242.65190259984593 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_243",
+            "value": 4.390457706164214,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005994409261990093",
+            "extra": "mean: 227.76668559999962 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_244",
+            "value": 4.225245062818637,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006924481502409106",
+            "extra": "mean: 236.67266280003787 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_245",
+            "value": 2.1253073069507513,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018192427891528952",
+            "extra": "mean: 470.5201909999232 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_246",
+            "value": 4.451606965299469,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010719994641850757",
+            "extra": "mean: 224.63798079998014 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_247",
+            "value": 3.8584460539120906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0072187895260560925",
+            "extra": "mean: 259.17169399999693 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_248",
+            "value": 2.083818499243693,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02431769068801265",
+            "extra": "mean: 479.8882437999964 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_249",
+            "value": 4.214744208190411,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004757048947329466",
+            "extra": "mean: 237.26232259996323 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_250",
+            "value": 2.4492408704549318,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019333929639891525",
+            "extra": "mean: 408.28977339997437 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_251",
+            "value": 4.311028552998105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001993432223631248",
+            "extra": "mean: 231.96320500001093 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_252",
+            "value": 1.127007849601366,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014949228434310995",
+            "extra": "mean: 887.3052661999736 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_253",
+            "value": 3.0135729644748857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.031446667073751364",
+            "extra": "mean: 331.832018599971 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_254",
+            "value": 4.064915507190759,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0066663303243304625",
+            "extra": "mean: 246.0075733999929 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_255",
+            "value": 4.708452370269245,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002556354758341506",
+            "extra": "mean: 212.38401099994917 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_256",
+            "value": 2.609852662949739,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008077088203012485",
+            "extra": "mean: 383.1633924000016 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_257",
+            "value": 2.9951003865607477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019190394461330442",
+            "extra": "mean: 333.8786254000297 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_258",
+            "value": 4.426463535760471,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006266813924738717",
+            "extra": "mean: 225.91398119993755 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_259",
+            "value": 3.8070375891812573,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011295095736543755",
+            "extra": "mean: 262.6714280000215 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_260",
+            "value": 5.019400736760665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034925539515026477",
+            "extra": "mean: 199.22696999988148 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_261",
+            "value": 4.617092304507634,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009909672311751567",
+            "extra": "mean: 216.5865298000881 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_262",
+            "value": 2.8529228316230273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003822906777402696",
+            "extra": "mean: 350.517717799994 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_263",
+            "value": 3.4751425051336877,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010044890331842367",
+            "extra": "mean: 287.75798360002227 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_264",
+            "value": 2.527446394676792,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004276414628713856",
+            "extra": "mean: 395.6562647999817 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_265",
+            "value": 2.9314799539906375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011710696444324701",
+            "extra": "mean: 341.1246249999749 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_266",
+            "value": 4.777854948098271,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0031823021803472663",
+            "extra": "mean: 209.29894500000046 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_267",
+            "value": 4.228609223348491,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01514204679703842",
+            "extra": "mean: 236.48437280003236 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_268",
+            "value": 4.296568624783484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00648935377297124",
+            "extra": "mean: 232.7438677999453 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_269",
+            "value": 5.021777448453203,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004345887542491609",
+            "extra": "mean: 199.1326796666423 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_270",
+            "value": 4.437442696306752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0053017996609775585",
+            "extra": "mean: 225.3550228000222 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_271",
+            "value": 1.582669609759327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027858574101816497",
+            "extra": "mean: 631.8438124000295 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_272",
+            "value": 12.956613091839113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003375233679334975",
+            "extra": "mean: 77.18066387502631 msec\nrounds: 8"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_273",
+            "value": 2.8581286747195063,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015590144079630322",
+            "extra": "mean: 349.87927899996976 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_274",
+            "value": 2.807954020368248,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019393601120431005",
+            "extra": "mean: 356.1311876000218 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_275",
+            "value": 3.5817750454462853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008167637229634686",
+            "extra": "mean: 279.1911796000022 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_276",
+            "value": 2.241521969460171,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02443627402572206",
+            "extra": "mean: 446.1254511999414 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_277",
+            "value": 4.961966359150474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0048202744508891344",
+            "extra": "mean: 201.5330067999912 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_278",
+            "value": 3.5406686734356043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0030072356988353347",
+            "extra": "mean: 282.43252679999387 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_279",
+            "value": 3.361511433751157,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003836330498866037",
+            "extra": "mean: 297.4852293999447 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_280",
+            "value": 1.1823201382619666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015452403632568779",
+            "extra": "mean: 845.794609800032 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_281",
+            "value": 3.8931836968771263,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0077387067429338955",
+            "extra": "mean: 256.8591871999615 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_282",
+            "value": 3.9440257025459444,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004324555833714743",
+            "extra": "mean: 253.54804340004193 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_283",
+            "value": 4.54513335741061,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004798405199071639",
+            "extra": "mean: 220.0155465998705 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_284",
+            "value": 4.438347480592478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00581251287326857",
+            "extra": "mean: 225.30908280000403 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_285",
+            "value": 2.641171811275132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010103866391911234",
+            "extra": "mean: 378.619821600023 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_286",
+            "value": 1.9998447904456484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011315352487328088",
+            "extra": "mean: 500.0388054000723 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_287",
+            "value": 3.893477256229572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01070785696838288",
+            "extra": "mean: 256.8398205999529 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_288",
+            "value": 2.8579068916043355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00983027186000973",
+            "extra": "mean: 349.90643080000154 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_289",
+            "value": 2.149415861203995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019289589694532677",
+            "extra": "mean: 465.2426820000528 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_290",
+            "value": 1.4673834142432018,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026657668039354276",
+            "extra": "mean: 681.4851457999794 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_291",
+            "value": 2.6816882945380818,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005580725698254954",
+            "extra": "mean: 372.89941640001416 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_292",
+            "value": 3.9335818388328128,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008438338809538353",
+            "extra": "mean: 254.22122660011155 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_293",
+            "value": 2.602693323999132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026032909979713813",
+            "extra": "mean: 384.217376199922 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_294",
+            "value": 2.44605063609344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015006272619805097",
+            "extra": "mean: 408.8222807999955 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_295",
+            "value": 1.3167119076459455,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02804664060325923",
+            "extra": "mean: 759.4675753998672 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_296",
+            "value": 2.055392100179239,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029370832501445007",
+            "extra": "mean: 486.5251743999579 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_297",
+            "value": 1.7741923617956987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025493850148061013",
+            "extra": "mean: 563.6367406000318 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_298",
+            "value": 2.7051877466563643,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02415413546490291",
+            "extra": "mean: 369.6601100001317 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_299",
+            "value": 4.327353981102126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00630216454493154",
+            "extra": "mean: 231.0880977999659 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_300",
+            "value": 2.929247717509285,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008408434487298423",
+            "extra": "mean: 341.38457939989166 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_301",
+            "value": 2.5876423585812196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023678838816856484",
+            "extra": "mean: 386.4521682000486 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_302",
+            "value": 3.25802880207943,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016902678211326",
+            "extra": "mean: 306.9340576000286 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_303",
+            "value": 4.076365097547844,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00993331454282121",
+            "extra": "mean: 245.31659359990954 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_304",
+            "value": 3.256916297558237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0047233363425407205",
+            "extra": "mean: 307.03890080003475 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_305",
+            "value": 2.763652201716036,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016206433673401553",
+            "extra": "mean: 361.84003159987697 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_306",
+            "value": 1.8643261631642543,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02498334972165291",
+            "extra": "mean: 536.3868295999964 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_307",
+            "value": 3.519684884470702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00802718277269373",
+            "extra": "mean: 284.1163435999988 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_308",
+            "value": 3.55147677318922,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020234393699146848",
+            "extra": "mean: 281.5730086000258 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_309",
+            "value": 4.372748445043907,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004213768291847522",
+            "extra": "mean: 228.68912139992972 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_310",
+            "value": 3.6213098408217244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006556540113592642",
+            "extra": "mean: 276.1431757999162 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_311",
+            "value": 2.4174975486469155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03041706593557385",
+            "extra": "mean: 413.650884800154 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_312",
+            "value": 2.830994666098673,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004713225239766148",
+            "extra": "mean: 353.23273899984997 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_313",
+            "value": 2.8512402602878613,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018093197302182316",
+            "extra": "mean: 350.72456500001863 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_314",
+            "value": 4.4636640574061035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008902430129751135",
+            "extra": "mean: 224.03119659975346 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_315",
+            "value": 2.5949873395607908,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02003984178928812",
+            "extra": "mean: 385.358334799912 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_316",
+            "value": 1.6567296425841276,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01589962051898073",
+            "extra": "mean: 603.5987854000268 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_317",
+            "value": 4.478657289659744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011884064780176768",
+            "extra": "mean: 223.28120579995812 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_318",
+            "value": 2.6978137697952547,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020426695882228382",
+            "extra": "mean: 370.67050780005957 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_319",
+            "value": 4.3739097915052065,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007637786842879776",
+            "extra": "mean: 228.6284005998823 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_320",
+            "value": 3.5347928172379364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005795134386821346",
+            "extra": "mean: 282.90201200006777 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_321",
+            "value": 3.279173932645871,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026959260136022192",
+            "extra": "mean: 304.954851599814 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_322",
+            "value": 3.4960072639431696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00798844216136703",
+            "extra": "mean: 286.040595599934 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_323",
+            "value": 1.9454484117950992,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01941325918270522",
+            "extra": "mean: 514.0203122000457 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_324",
+            "value": 2.925473537068903,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007353942691735538",
+            "extra": "mean: 341.82500280003296 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_325",
+            "value": 2.6951187754099304,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007210004422228916",
+            "extra": "mean: 371.0411611999916 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_326",
+            "value": 4.762480672819184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004797663557621034",
+            "extra": "mean: 209.97460539992971 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_327",
+            "value": 3.2240410811184996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02351537198602866",
+            "extra": "mean: 310.1697449999847 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_328",
+            "value": 2.6269315059641096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0137584608366304",
+            "extra": "mean: 380.67227780002213 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_329",
+            "value": 4.520412524423738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004583861677276786",
+            "extra": "mean: 221.2187481998626 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_330",
+            "value": 4.436302323306605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006493404109784538",
+            "extra": "mean: 225.4129514001761 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_331",
+            "value": 3.610540504499073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00595013116627692",
+            "extra": "mean: 276.96684160000586 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_332",
+            "value": 1.6456042769289985,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024126736435690063",
+            "extra": "mean: 607.6795096000751 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_333",
+            "value": 2.0552858873179702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011019097430049214",
+            "extra": "mean: 486.55031699991014 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_334",
+            "value": 1.743756969561161,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021065430565463242",
+            "extra": "mean: 573.4744104000129 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_335",
+            "value": 1.1710407220456105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03567323345407933",
+            "extra": "mean: 853.9412687999175 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_336",
+            "value": 1.20370916633663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017389467469576637",
+            "extra": "mean: 830.7654605999232 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_337",
+            "value": 4.623599856061156,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007983909512005236",
+            "extra": "mean: 216.28169200002958 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_338",
+            "value": 3.1562392388606093,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013422241971013993",
+            "extra": "mean: 316.8327634000889 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_339",
+            "value": 3.4317852511393365,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0067874999877875295",
+            "extra": "mean: 291.39352460006194 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_340",
+            "value": 5.084399108379724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00434855441700135",
+            "extra": "mean: 196.680075400036 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_341",
+            "value": 2.8932462402722856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027537635507941912",
+            "extra": "mean: 345.6325237999408 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_342",
+            "value": 1.7869466694397698,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014262277441511335",
+            "extra": "mean: 559.6137909999925 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_343",
+            "value": 2.622724137883189,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02747545106585842",
+            "extra": "mean: 381.28295139995316 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_344",
+            "value": 1.6293245243951082,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028706242029290997",
+            "extra": "mean: 613.7512723999862 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_345",
+            "value": 4.685439258892805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004999826465949247",
+            "extra": "mean: 213.42716119988836 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_346",
+            "value": 4.515772528625051,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003619429332077796",
+            "extra": "mean: 221.44605239991506 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_347",
+            "value": 2.2637622473877834,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020953237292559247",
+            "extra": "mean: 441.74250240012043 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_348",
+            "value": 4.616842629916228,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002057333486737599",
+            "extra": "mean: 216.59824259986635 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_349",
+            "value": 4.2331970914116495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007344238295398221",
+            "extra": "mean: 236.22807500005365 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_350",
+            "value": 5.056646006564989,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005909095236122897",
+            "extra": "mean: 197.75954233333928 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_351",
+            "value": 4.036299956702271,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0021066017993447788",
+            "extra": "mean: 247.75165639994157 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_352",
+            "value": 2.17844990693298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02798349980761153",
+            "extra": "mean: 459.0419990000555 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_353",
+            "value": 2.142862525727122,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015080123750876518",
+            "extra": "mean: 466.6654944001493 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_354",
+            "value": 3.8467702851711563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008603066308013139",
+            "extra": "mean: 259.95833540018793 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_355",
+            "value": 4.182591143520732,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00729191154876379",
+            "extra": "mean: 239.0862424000261 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_356",
+            "value": 1.5649478885530572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00784579530558219",
+            "extra": "mean: 638.9989131999755 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_357",
+            "value": 3.8201442908985133,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00898595355632907",
+            "extra": "mean: 261.77021700004843 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_358",
+            "value": 0.8651409223731824,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0904186787419497",
+            "extra": "mean: 1.1558810525999434 sec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_359",
+            "value": 2.261693466478106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022248853144482477",
+            "extra": "mean: 442.1465661998809 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_360",
+            "value": 2.7215908536342313,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023038729919696466",
+            "extra": "mean: 367.43215780015817 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_361",
+            "value": 4.509312284511953,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003724207465037796",
+            "extra": "mean: 221.76330600004803 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_362",
+            "value": 3.9259263965156688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011502279604832018",
+            "extra": "mean: 254.71695059986814 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_363",
+            "value": 3.510472131541881,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02015206075284077",
+            "extra": "mean: 284.86196799995014 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_364",
+            "value": 4.513058800103545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011265085179001644",
+            "extra": "mean: 221.57920919999015 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_365",
+            "value": 3.656332685357428,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016749554795400703",
+            "extra": "mean: 273.49808840008336 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_366",
+            "value": 3.6731811761666857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014879519576212743",
+            "extra": "mean: 272.2435818000122 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_367",
+            "value": 3.0341110106350766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.034664273582766636",
+            "extra": "mean: 329.58583139998154 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_368",
+            "value": 1.604703885187599,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020842217554826157",
+            "extra": "mean: 623.167930999989 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_369",
+            "value": 4.193824286078858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01227903128643949",
+            "extra": "mean: 238.44585080005345 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_370",
+            "value": 3.569549769505046,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011475634067271154",
+            "extra": "mean: 280.14737559988134 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_371",
+            "value": 4.504359573694119,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006742639806622633",
+            "extra": "mean: 222.0071429998825 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_372",
+            "value": 4.399461843749422,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004252765932993818",
+            "extra": "mean: 227.30052799997793 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_373",
+            "value": 1.829978205054529,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013965980704353703",
+            "extra": "mean: 546.454595600062 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_374",
+            "value": 3.6413297242124334,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008712035381184178",
+            "extra": "mean: 274.62495180006954 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_375",
+            "value": 3.2941458905231924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008779589205618108",
+            "extra": "mean: 303.56882579999365 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_376",
+            "value": 3.8531153318673232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025554622937677848",
+            "extra": "mean: 259.5302537999487 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_377",
+            "value": 4.160358716911552,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007886688989321553",
+            "extra": "mean: 240.3638888000387 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_378",
+            "value": 3.109479741219869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007488976008269837",
+            "extra": "mean: 321.59720700019534 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_379",
+            "value": 4.01747283140743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.022617804223169422",
+            "extra": "mean: 248.912697599917 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_380",
+            "value": 2.1432440375967654,
+            "unit": "iter/sec",
+            "range": "stddev: 0.032010259469152605",
+            "extra": "mean: 466.5824247999808 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_381",
+            "value": 1.7540875379989693,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027256388116872202",
+            "extra": "mean: 570.0969753999743 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_382",
+            "value": 1.8117689893732858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015316563731660609",
+            "extra": "mean: 551.9467469999654 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_383",
+            "value": 4.805558376391392,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005055154292180106",
+            "extra": "mean: 208.09236340001007 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_384",
+            "value": 3.7974388776507397,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017543691661766024",
+            "extra": "mean: 263.335377400108 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_385",
+            "value": 2.5087569579065483,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01180773740430482",
+            "extra": "mean: 398.60377739996693 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_386",
+            "value": 4.344314837928955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007240325383498031",
+            "extra": "mean: 230.18589520015666 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_387",
+            "value": 4.580037433821682,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00437804043414563",
+            "extra": "mean: 218.33882679984526 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_388",
+            "value": 1.9397496690749871,
+            "unit": "iter/sec",
+            "range": "stddev: 0.027352550645407286",
+            "extra": "mean: 515.5304397999316 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_389",
+            "value": 1.6858856626295382,
+            "unit": "iter/sec",
+            "range": "stddev: 0.036239514525766826",
+            "extra": "mean: 593.1600357999741 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_390",
+            "value": 4.529491599980897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00732678538118505",
+            "extra": "mean: 220.77532939993034 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_391",
+            "value": 4.589113380146133,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004417771772629928",
+            "extra": "mean: 217.90701540003283 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_392",
+            "value": 4.119945353372307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034950455739578947",
+            "extra": "mean: 242.72166600012497 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_393",
+            "value": 3.6171729815995355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008579808567411985",
+            "extra": "mean: 276.4589930000511 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_394",
+            "value": 2.935562464666836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019492170189432247",
+            "extra": "mean: 340.650220200132 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_395",
+            "value": 1.9413248163527395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01066030285747896",
+            "extra": "mean: 515.1121500000954 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_396",
+            "value": 3.24460985537545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0064489269299533155",
+            "extra": "mean: 308.20346500004234 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_397",
+            "value": 4.003668208857309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006610624321789264",
+            "extra": "mean: 249.77094699997906 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_398",
+            "value": 4.101891146724657,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0074418461901992914",
+            "extra": "mean: 243.78998959991804 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_399",
+            "value": 7.4496444288029,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0022094978324321",
+            "extra": "mean: 134.23459462489973 msec\nrounds: 8"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_400",
+            "value": 2.332627265254076,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007694167740279867",
+            "extra": "mean: 428.7011538001025 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_401",
+            "value": 2.276418315328791,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02653988358993063",
+            "extra": "mean: 439.2865728000288 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_402",
+            "value": 4.415291257447616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038159586928105567",
+            "extra": "mean: 226.4856249999866 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_403",
+            "value": 2.0846129782218044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004548544108221729",
+            "extra": "mean: 479.7053507999408 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_404",
+            "value": 7.945591047696025,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032155920749010907",
+            "extra": "mean: 125.85596137495259 msec\nrounds: 8"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_405",
+            "value": 17.560103933550604,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018813043075247941",
+            "extra": "mean: 56.947271142819645 msec\nrounds: 14"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_406",
+            "value": 3.863827841771802,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0030489181533220615",
+            "extra": "mean: 258.8107030000174 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_407",
+            "value": 3.1885746076359616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00446054322251627",
+            "extra": "mean: 313.61975899990284 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_408",
+            "value": 4.481128865337845,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025861014046314416",
+            "extra": "mean: 223.15805459984404 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_409",
+            "value": 2.012810936154551,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004358170713921635",
+            "extra": "mean: 496.8176504001349 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_410",
+            "value": 2.428385591507637,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009128989517792526",
+            "extra": "mean: 411.7962169999373 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_411",
+            "value": 1.8291234075951954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00873909975814863",
+            "extra": "mean: 546.7099681998661 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_412",
+            "value": 3.715584005580884,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015559573850513946",
+            "extra": "mean: 269.1366951999953 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_413",
+            "value": 2.325060747200316,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0021542295060107105",
+            "extra": "mean: 430.0962893998076 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_414",
+            "value": 1.2765336313793578,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019032142023800196",
+            "extra": "mean: 783.3714485997916 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_415",
+            "value": 4.34119018139347,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00782031141610439",
+            "extra": "mean: 230.35157600006642 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_416",
+            "value": 1.3408470335646114,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02789600095653281",
+            "extra": "mean: 745.7972273999985 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_417",
+            "value": 1.6857721324935315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02797004646599499",
+            "extra": "mean: 593.1999828000698 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_418",
+            "value": 1.9107017451306278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03420433787624799",
+            "extra": "mean: 523.3679209999536 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_419",
+            "value": 2.8483691444847383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026130270740874734",
+            "extra": "mean: 351.07809040000575 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_420",
+            "value": 2.0271386708673815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00910970916907212",
+            "extra": "mean: 493.30616320003173 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_421",
+            "value": 2.0679517616503644,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01801653103876716",
+            "extra": "mean: 483.57027399997605 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_422",
+            "value": 3.5504220151981527,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00652914271367722",
+            "extra": "mean: 281.65665819988135 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_423",
+            "value": 3.790432617698959,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013799583856298814",
+            "extra": "mean: 263.8221281999904 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_424",
+            "value": 3.0707806293901516,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012463334538662014",
+            "extra": "mean: 325.650093799959 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_425",
+            "value": 1.5840681476713019,
+            "unit": "iter/sec",
+            "range": "stddev: 0.053096318182354434",
+            "extra": "mean: 631.2859717999345 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_426",
+            "value": 4.012032319228128,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00531017760057416",
+            "extra": "mean: 249.2502353999953 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_427",
+            "value": 2.4044531534201847,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014932944749038201",
+            "extra": "mean: 415.8949816001041 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_428",
+            "value": 4.094345384915457,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012621191714914864",
+            "extra": "mean: 244.2392875999758 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_429",
+            "value": 2.5384845155350066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025391907567147574",
+            "extra": "mean: 393.93582819993753 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_430",
+            "value": 3.5179481977469247,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002450393787859894",
+            "extra": "mean: 284.25660180000705 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_431",
+            "value": 3.1829359068013607,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015102741824466139",
+            "extra": "mean: 314.17534919983154 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_432",
+            "value": 4.571102741135674,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0039074596871839055",
+            "extra": "mean: 218.7655925999934 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_433",
+            "value": 3.253045308112136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008684453836217718",
+            "extra": "mean: 307.40426439997464 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_434",
+            "value": 4.1422374279238605,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007835712523557841",
+            "extra": "mean: 241.4154227999461 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_435",
+            "value": 4.623057341491418,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008099889335227088",
+            "extra": "mean: 216.30707260001145 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_436",
+            "value": 4.249732992463246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0092534707174541",
+            "extra": "mean: 235.3089010000076 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_437",
+            "value": 1.8633943791766563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025764424833355754",
+            "extra": "mean: 536.6550480000114 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_438",
+            "value": 3.1836091237352826,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034973829705376137",
+            "extra": "mean: 314.10891260002245 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_439",
+            "value": 2.816668864269098,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02457258175414588",
+            "extra": "mean: 355.0293088000217 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_440",
+            "value": 4.6899829575897325,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008723622297334744",
+            "extra": "mean: 213.22039099986796 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_441",
+            "value": 4.585253104298147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006301916442926354",
+            "extra": "mean: 218.09046899998066 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_442",
+            "value": 2.272817141982982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028139988633549422",
+            "extra": "mean: 439.9826020000546 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_443",
+            "value": 4.604312298342956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01032992873715114",
+            "extra": "mean: 217.18770039988158 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_444",
+            "value": 2.4116841644840266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01982331398977753",
+            "extra": "mean: 414.6479935999196 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_445",
+            "value": 2.176306542574616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012837291362108722",
+            "extra": "mean: 459.49409260010725 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_446",
+            "value": 2.9630085292051325,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009344696543071246",
+            "extra": "mean: 337.4948098000459 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_447",
+            "value": 4.249117762262766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0022805607967894105",
+            "extra": "mean: 235.34297140013223 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_448",
+            "value": 5.191923059866208,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032083941268849442",
+            "extra": "mean: 192.6068604001557 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_449",
+            "value": 1.7645191470284505,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021192899277796592",
+            "extra": "mean: 566.7266357999324 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_450",
+            "value": 5.339252053229919,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005934707087227658",
+            "extra": "mean: 187.29215066650795 msec\nrounds: 6"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_451",
+            "value": 4.554147987529375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004236032122378455",
+            "extra": "mean: 219.5800405999762 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_452",
+            "value": 2.204562694255991,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017646226169763263",
+            "extra": "mean: 453.60470019995773 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_453",
+            "value": 3.0784826760301875,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012122332316016768",
+            "extra": "mean: 324.83535080000365 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_454",
+            "value": 4.240499116991327,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008489420148279818",
+            "extra": "mean: 235.82129659998827 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_455",
+            "value": 3.582397103702278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005204032422740599",
+            "extra": "mean: 279.1427000001022 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_456",
+            "value": 1.8596290409017635,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025268980161708882",
+            "extra": "mean: 537.7416559998892 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_457",
+            "value": 4.1330859563456075,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00762051172975312",
+            "extra": "mean: 241.94996440000978 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_458",
+            "value": 3.5694760858566856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007512666763553289",
+            "extra": "mean: 280.15315860002374 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_459",
+            "value": 3.69815573868129,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01670306898198664",
+            "extra": "mean: 270.40505340009986 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_460",
+            "value": 4.46910958338478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007229479137923441",
+            "extra": "mean: 223.75821879995783 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_461",
+            "value": 1.7989539578529599,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017054269874231677",
+            "extra": "mean: 555.8785957999135 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_462",
+            "value": 2.166519319665387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025632295505149574",
+            "extra": "mean: 461.5698512000563 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_463",
+            "value": 3.9555034593600333,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008187211585848064",
+            "extra": "mean: 252.81231839999236 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_464",
+            "value": 3.2221279248588663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005068774818399741",
+            "extra": "mean: 310.353909999958 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_465",
+            "value": 2.7813019283681433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023279123856765265",
+            "extra": "mean: 359.5438487998763 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_466",
+            "value": 4.057411568705534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009600132393849105",
+            "extra": "mean: 246.46254960007354 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_467",
+            "value": 1.9003742165216824,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026086929145100912",
+            "extra": "mean: 526.2121488000048 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_468",
+            "value": 2.2341554192531077,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006697511931160397",
+            "extra": "mean: 447.59643460001826 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_469",
+            "value": 1.2504472465288043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03501944015046094",
+            "extra": "mean: 799.7138646000167 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_470",
+            "value": 3.689418534763361,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003742156326982978",
+            "extra": "mean: 271.0454209999625 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_471",
+            "value": 4.233303854042456,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017541526477343892",
+            "extra": "mean: 236.22211740012062 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_472",
+            "value": 4.092052696133512,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005756470436893911",
+            "extra": "mean: 244.37612959991384 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_473",
+            "value": 4.306924676424223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01072026181335063",
+            "extra": "mean: 232.184232399959 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_474",
+            "value": 1.2700715522798796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.030845717403224907",
+            "extra": "mean: 787.3572148001585 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_475",
+            "value": 2.4847927626628117,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01683379412991134",
+            "extra": "mean: 402.44804920002935 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_476",
+            "value": 1.5419706756172376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02836745281764375",
+            "extra": "mean: 648.5207635999359 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_477",
+            "value": 2.8697129229135747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028958971108134588",
+            "extra": "mean: 348.46691179991467 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_478",
+            "value": 2.6450976558600647,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007279536780470062",
+            "extra": "mean: 378.0578754000089 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_479",
+            "value": 7.631848300146774,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0031575611204959523",
+            "extra": "mean: 131.0298581250322 msec\nrounds: 8"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_480",
+            "value": 2.910538979918827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02142043782732784",
+            "extra": "mean: 343.57897519994367 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_481",
+            "value": 3.9817600128954003,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011387882778410342",
+            "extra": "mean: 251.1452213999291 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_482",
+            "value": 3.687363382311144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015491023508617903",
+            "extra": "mean: 271.19648819998474 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_483",
+            "value": 2.409064677858523,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026823026320523753",
+            "extra": "mean: 415.09885940004096 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_484",
+            "value": 4.239894524519026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016581614688705015",
+            "extra": "mean: 235.85492379988864 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_485",
+            "value": 4.017925056550433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007063679014615294",
+            "extra": "mean: 248.88468200015268 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_486",
+            "value": 4.199606828778456,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005117674468739555",
+            "extra": "mean: 238.11752879992127 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_487",
+            "value": 3.7836802328411134,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006270655541866864",
+            "extra": "mean: 264.29294720001053 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_488",
+            "value": 1.9422611179696017,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01795936136663433",
+            "extra": "mean: 514.8638309999114 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_489",
+            "value": 4.204930977905744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034846581662159345",
+            "extra": "mean: 237.81603200013706 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_490",
+            "value": 2.8312893702334776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008961129525949347",
+            "extra": "mean: 353.195971599871 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_491",
+            "value": 1.7620494307272907,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021947498720991415",
+            "extra": "mean: 567.5209688000905 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_492",
+            "value": 4.003437223089621,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00949374326252119",
+            "extra": "mean: 249.78535800000827 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_493",
+            "value": 2.317728968412368,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024461376840301148",
+            "extra": "mean: 431.456832799995 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_494",
+            "value": 1.6549956812555697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01988222114824148",
+            "extra": "mean: 604.2311840000366 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_495",
+            "value": 1.5842782357144924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019984896970687414",
+            "extra": "mean: 631.2022581999372 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_496",
+            "value": 4.260027273067966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0054637937632325325",
+            "extra": "mean: 234.7402812000837 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_497",
+            "value": 2.1748934003192053,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010837085635057305",
+            "extra": "mean: 459.7926499998721 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_498",
+            "value": 3.4903905290469557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0076170717686000824",
+            "extra": "mean: 286.5008919999127 msec\nrounds: 5"
+          },
+          {
+            "name": "artemis/tests/idfm_test.py::TestIdfMExperimental::test_idfm_499",
+            "value": 3.673991254668139,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007053325938540763",
+            "extra": "mean: 272.1835548000854 msec\nrounds: 5"
           }
         ]
       }
