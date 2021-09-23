@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632411853176,
+  "lastUpdate": 1632417221452,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -863,6 +863,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 22693,
             "range": "± 239",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5a5e6c4da1a862a825ed0edf12021b353325558",
+          "message": "Merge pull request #82 from CanalTP/fmt-import\n\nFmt fuse & reorder use crate",
+          "timestamp": "2021-09-23T19:05:44+02:00",
+          "tree_id": "0734909af3774795546fb0a7a8a5806bd1ae41a1",
+          "url": "https://github.com/CanalTP/loki/commit/f5a5e6c4da1a862a825ed0edf12021b353325558"
+        },
+        "date": 1632417219754,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 102746,
+            "range": "± 9758",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 21390,
+            "range": "± 2179",
             "unit": "ns/iter"
           }
         ]
