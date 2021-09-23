@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632243230051,
+  "lastUpdate": 1632391931069,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -719,6 +719,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 21971,
             "range": "± 1603",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hicham.azimani@kisio.com",
+            "name": "HichamAz",
+            "username": "AzHicham"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fedd9a4a4f4809d5f02472202236f514b1c73f94",
+          "message": "Merge pull request #68 from CanalTP/update_merge\n\nAdd/remove a vehicle",
+          "timestamp": "2021-09-23T12:04:53+02:00",
+          "tree_id": "7a46e381601f2603569ade70d58d305da80039a8",
+          "url": "https://github.com/CanalTP/loki/commit/fedd9a4a4f4809d5f02472202236f514b1c73f94"
+        },
+        "date": 1632391929963,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 100645,
+            "range": "± 20055",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 20396,
+            "range": "± 2581",
             "unit": "ns/iter"
           }
         ]
