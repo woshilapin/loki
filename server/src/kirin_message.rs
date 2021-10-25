@@ -34,6 +34,15 @@
 // https://groups.google.com/d/forum/navitia
 // www.navitia.io
 
+// TODO  
+// reload kirin
+// reload chaos : faire un composant à part ?
+//
+// Suppression de disruption : n'arrive pas depuis Kirin
+// Arrive depuis Chaos ?
+
+// Pas besoin de conserver l'historique pour les infos Kirin
+
 // Which field should I trust for deciding whether :
 //  - this is a NEW vehicle (not in ntfs)
 //  - this is a modification of an EXISTING vehicle (in ntfs, or a previously received new vehicle)
@@ -72,14 +81,17 @@ pub struct TripUpdate {
 
 // all values can happen ?
 pub enum AlertEffect {
+    // Deleted
     NoService,
+    // Added
+    AdditionnalService,
+    // Modified
     ReducedService,
     SignificantDelay,
     Detour,
-    AdditionnalService,
     ModifiedService,
-    OtherEffect,
-    UnknownEffect,
+    OtherEffect, // pas de modif, mais message a afficher
+    UnknownEffect, 
     StopMoved,
 }
 
