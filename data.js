@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634024624931,
+  "lastUpdate": 1635324955896,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
@@ -1043,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 23516,
             "range": "± 3503",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "733d1086c7ef2a0fa3ceb2e2c885b9ee95566925",
+          "message": "Merge pull request #92 from CanalTP/realtime_worker\n\nRealtime update worker",
+          "timestamp": "2021-10-27T10:46:05+02:00",
+          "tree_id": "850a5073c995d062dae9b5bd502c890a4c49d022",
+          "url": "https://github.com/CanalTP/loki/commit/733d1086c7ef2a0fa3ceb2e2c885b9ee95566925"
+        },
+        "date": 1635324954570,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 64377,
+            "range": "± 10936",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 15824,
+            "range": "± 2553",
             "unit": "ns/iter"
           }
         ]
