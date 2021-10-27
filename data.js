@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635347830596,
+  "lastUpdate": 1635348499338,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "hicham.azimani@kisio.com",
-            "name": "HichamAz",
-            "username": "AzHicham"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "b3d87818c1e7eb9e87ef453d3dd625ef91037c6c",
-          "message": "Merge pull request #60 from CanalTP/fix-bug-secondpass\n\n[FIX] compute new board/debark time with new trip",
-          "timestamp": "2021-08-30T16:51:02+02:00",
-          "tree_id": "ac846066f05e17f4ce82063c3dfa65fca140cf6f",
-          "url": "https://github.com/CanalTP/loki/commit/b3d87818c1e7eb9e87ef453d3dd625ef91037c6c"
-        },
-        "date": 1630335488224,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_loads_bench",
-            "value": 24190,
-            "range": "± 3800",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "setup_routing_basic_bench",
-            "value": 23726,
-            "range": "± 2218",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 15302,
             "range": "± 193",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c226dd11f28517c901659bb10389b87185ebf93",
+          "message": "Merge pull request #102 from CanalTP/auto/clippy\n\n[Clippy] Code maintenance",
+          "timestamp": "2021-10-27T17:16:39+02:00",
+          "tree_id": "265f503b6c02d767a393fa37274e8142d7360d40",
+          "url": "https://github.com/CanalTP/loki/commit/3c226dd11f28517c901659bb10389b87185ebf93"
+        },
+        "date": 1635348497936,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 71996,
+            "range": "± 8935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 18175,
+            "range": "± 4216",
             "unit": "ns/iter"
           }
         ]
