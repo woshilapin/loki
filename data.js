@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635336206861,
+  "lastUpdate": 1635347830596,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "hicham.azimani@kisio.com",
-            "name": "HichamAz",
-            "username": "AzHicham"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5594b0a96e8e138ae46d8f421298b794376322ea",
-          "message": "Merge pull request #59 from CanalTP/auto/clippy\n\n[Clippy] Code maintenance",
-          "timestamp": "2021-08-20T14:43:51+02:00",
-          "tree_id": "801574ec0f028a5ba79633c0682dc583bea2c2dd",
-          "url": "https://github.com/CanalTP/loki/commit/5594b0a96e8e138ae46d8f421298b794376322ea"
-        },
-        "date": 1629463917806,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_loads_bench",
-            "value": 26469,
-            "range": "± 1646",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "setup_routing_basic_bench",
-            "value": 25933,
-            "range": "± 2472",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 14920,
             "range": "± 110",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34feb79d2eb9997f2a60422e603c005d2a0df5fc",
+          "message": "Merge pull request #85 from CanalTP/realtime\n\nHandle Kirin realtime messages",
+          "timestamp": "2021-10-27T17:07:09+02:00",
+          "tree_id": "d279d4f724f15086b51590e6c9ef3c828cfef956",
+          "url": "https://github.com/CanalTP/loki/commit/34feb79d2eb9997f2a60422e603c005d2a0df5fc"
+        },
+        "date": 1635347829121,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 64027,
+            "range": "± 428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 15302,
+            "range": "± 193",
             "unit": "ns/iter"
           }
         ]
