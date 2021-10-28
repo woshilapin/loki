@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635348499338,
+  "lastUpdate": 1635412871400,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "hicham.azimani@kisio.com",
-            "name": "HichamAz",
-            "username": "AzHicham"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "7b2726e1ce46f623a18c574476d1488ece7212c7",
-          "message": "Merge pull request #62 from CanalTP/bump-transit_model\n\nBump transit_model",
-          "timestamp": "2021-08-31T17:22:39+02:00",
-          "tree_id": "aec33b6bdb47e9712ef6df9fd3f4fa399ed9fd8a",
-          "url": "https://github.com/CanalTP/loki/commit/7b2726e1ce46f623a18c574476d1488ece7212c7"
-        },
-        "date": 1630423724533,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_loads_bench",
-            "value": 20947,
-            "range": "± 365",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "setup_routing_basic_bench",
-            "value": 21058,
-            "range": "± 278",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 18175,
             "range": "± 4216",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f669818fca8246d48184e27a3b4ebf5efc5e725",
+          "message": "Merge pull request #103 from CanalTP/artemis_cleanup\n\n[Artemis] Try to free up some space for github action",
+          "timestamp": "2021-10-28T11:11:06+02:00",
+          "tree_id": "c00df83c4b8122c5acddc1ca58fd2ab615ed7da6",
+          "url": "https://github.com/CanalTP/loki/commit/9f669818fca8246d48184e27a3b4ebf5efc5e725"
+        },
+        "date": 1635412869987,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 74246,
+            "range": "± 4203",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 17801,
+            "range": "± 1164",
             "unit": "ns/iter"
           }
         ]
