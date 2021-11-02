@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635842500433,
+  "lastUpdate": 1635858776695,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "52410095+pbench@users.noreply.github.com",
-            "name": "pbench",
-            "username": "pbench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4414d1aec9056666dcc4985bff36f7624318ea4b",
-          "message": "Merge pull request #65 from CanalTP/histogram_random\n\n[Random] print some stats",
-          "timestamp": "2021-09-08T11:12:30+02:00",
-          "tree_id": "bb535a9b0db74b8cd0fc785c39a3672ea3c2315c",
-          "url": "https://github.com/CanalTP/loki/commit/4414d1aec9056666dcc4985bff36f7624318ea4b"
-        },
-        "date": 1631092755882,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_daily_bench",
-            "value": 100348,
-            "range": "± 1684",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "routing_periodic_bench",
-            "value": 20984,
-            "range": "± 266",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 16969,
             "range": "± 3546",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a0f80b9d8196dccef72070f14a641c5af422582",
+          "message": "Merge pull request #106 from CanalTP/bump_deps\n\nBump dependencies",
+          "timestamp": "2021-11-02T14:01:35+01:00",
+          "tree_id": "24e213b279d43aba252b9b682c352faefd062edd",
+          "url": "https://github.com/CanalTP/loki/commit/8a0f80b9d8196dccef72070f14a641c5af422582"
+        },
+        "date": 1635858775126,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 82688,
+            "range": "± 23903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 17632,
+            "range": "± 2132",
             "unit": "ns/iter"
           }
         ]
