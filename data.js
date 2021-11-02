@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635416129838,
+  "lastUpdate": 1635842500433,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "52410095+pbench@users.noreply.github.com",
-            "name": "pbench",
-            "username": "pbench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "21a25e961b047e1ab1dc0228e0fa25491d350144",
-          "message": "Merge pull request #64 from CanalTP/split_vj_by_timezone\n\nA new timetable implementation, where a copy of a vehicle journey is made for each day interval on which the offset from the local timezone to UTC is constant.",
-          "timestamp": "2021-09-06T17:48:20+02:00",
-          "tree_id": "e33d5b6a2df20d561b155f85aa036b2ed5510df9",
-          "url": "https://github.com/CanalTP/loki/commit/21a25e961b047e1ab1dc0228e0fa25491d350144"
-        },
-        "date": 1630943741876,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_daily_bench",
-            "value": 105856,
-            "range": "± 26364",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "routing_periodic_bench",
-            "value": 21232,
-            "range": "± 2004",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 17612,
             "range": "± 1698",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "52361002db5079569d1d9c3fdd1b58dfd7dd144f",
+          "message": "Merge pull request #104 from CanalTP/fix-deadline-parsing\n\nSmall fixes",
+          "timestamp": "2021-11-02T09:31:17+01:00",
+          "tree_id": "b444f8a3c89fa98062692d7ced550c8bb4203428",
+          "url": "https://github.com/CanalTP/loki/commit/52361002db5079569d1d9c3fdd1b58dfd7dd144f"
+        },
+        "date": 1635842498375,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 71586,
+            "range": "± 13299",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 16969,
+            "range": "± 3546",
             "unit": "ns/iter"
           }
         ]
