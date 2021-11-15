@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635858776695,
+  "lastUpdate": 1636970742765,
   "repoUrl": "https://github.com/CanalTP/loki",
   "entries": {
     "Loki Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "52410095+pbench@users.noreply.github.com",
-            "name": "pbench",
-            "username": "pbench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9fdc002ceecc408326ec35418da2b3cec6ba523a",
-          "message": "Merge pull request #66 from CanalTP/complete-response\n\n[Server] Complete protobuf response",
-          "timestamp": "2021-09-08T11:12:51+02:00",
-          "tree_id": "78875c594203af8dd431fe7fd7f450067fbc3b18",
-          "url": "https://github.com/CanalTP/loki/commit/9fdc002ceecc408326ec35418da2b3cec6ba523a"
-        },
-        "date": 1631092889824,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "routing_daily_bench",
-            "value": 129919,
-            "range": "± 10923",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "routing_periodic_bench",
-            "value": 26245,
-            "range": "± 6243",
-            "unit": "ns/iter"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1079,6 +1043,42 @@ window.BENCHMARK_DATA = {
             "name": "routing_periodic_bench",
             "value": 17632,
             "range": "± 2132",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52410095+pbench@users.noreply.github.com",
+            "name": "pbench",
+            "username": "pbench"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "053d615ffb38fdaedc272b0bb3bf347dce80e3fc",
+          "message": "Merge pull request #107 from CanalTP/daily_realtime_data\n\nUse DailyTimetable for real time data",
+          "timestamp": "2021-11-15T10:53:51+01:00",
+          "tree_id": "be9bf77cb87ff45b24dbf8bf5611187a018142b9",
+          "url": "https://github.com/CanalTP/loki/commit/053d615ffb38fdaedc272b0bb3bf347dce80e3fc"
+        },
+        "date": 1636970741192,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "routing_daily_bench",
+            "value": 78012,
+            "range": "± 17809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "routing_periodic_bench",
+            "value": 17275,
+            "range": "± 4751",
             "unit": "ns/iter"
           }
         ]
