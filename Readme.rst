@@ -47,11 +47,12 @@ Development
 =========
 
 To be able to compile this project, you'll need to have libraries for zmq and initialize the submodule that brings protobuf description for Navitia.
+Rust compilation also make use of `lld` linker (faster than the default `ld`) which is not installed on most default Linux distributions.
 
 .. code-block::
 
     git submodule update --init --recursive
-    sudo apt install libzmq3-dev
+    sudo apt install libzmq3-dev lld
 
 Acknowledgments
 =========
