@@ -65,25 +65,17 @@ impl DataDownloader {
             None,
         )?;
 
-        let mut bucket = match config.bucket_region.parse() {
+        let mut bucket = match &config.bucket_region {
             // Custom Region / Minio
-            Ok(Region::Custom { .. }) => {
+            Region::Custom { .. } => {
                 let region = Region::Custom {
                     region: "".to_string(),
-                    endpoint: config.bucket_region.clone(),
+                    endpoint: config.bucket_region.to_string(),
                 };
                 Bucket::new_with_path_style(&config.bucket_name, region, credentials)?
             }
             // AWS Region
-            Ok(region) => Bucket::new(&config.bucket_name, region, credentials)?,
-            Err(err) => {
-                bail!(
-                    "Error while creating Bucket {} with region {} and name {}",
-                    err,
-                    config.bucket_region,
-                    config.bucket_region
-                )
-            }
+            region => Bucket::new(&config.bucket_name, region.clone(), credentials)?,
         };
 
         let timeout = Duration::from_millis(u64::from(config.bucket_timeout_in_ms));

@@ -187,13 +187,37 @@ impl Default for ChaosParams {
     }
 }
 
+fn ser_s3_region<S>(region: &s3::Region, serializer: S) -> Result<S::Ok, S::Error>
+where
+    S: serde::Serializer,
+{
+    serializer.serialize_str(&region.to_string())
+}
+fn de_s3_region<'de, D>(deserializer: D) -> Result<s3::Region, D::Error>
+where
+    D: serde::Deserializer<'de>,
+{
+    use serde::de::{Error, Unexpected::Other};
+    let region = <String as serde::Deserialize<'de>>::deserialize(deserializer)?;
+    region.parse().map_err(|_| {
+        D::Error::invalid_value(
+            Other(&format!("{} not a valid region", region)),
+            &std::any::type_name::<s3::Region>(),
+        )
+    })
+}
+
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct BucketParams {
     #[serde(default = "default_bucket_name")]
     pub bucket_name: String,
 
-    #[serde(default = "default_bucket_region")]
-    pub bucket_region: String,
+    #[serde(
+        default = "default_bucket_region",
+        deserialize_with = "de_s3_region",
+        serialize_with = "ser_s3_region"
+    )]
+    pub bucket_region: s3::Region,
 
     #[serde(default)]
     pub bucket_access_key: String,
@@ -225,8 +249,8 @@ pub fn default_bucket_name() -> String {
     "loki".to_string()
 }
 
-pub fn default_bucket_region() -> String {
-    "eu-west-1".to_string()
+pub fn default_bucket_region() -> s3::Region {
+    s3::Region::EuWest1
 }
 
 pub fn default_bucket_timeout_in_ms() -> u32 {
